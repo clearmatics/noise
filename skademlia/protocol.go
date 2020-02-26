@@ -21,8 +21,8 @@ package skademlia
 
 import (
 	"bytes"
-	"github.com/perlin-network/noise"
-	"github.com/perlin-network/noise/edwards25519"
+	"github.com/clearmatics/noise"
+	"github.com/clearmatics/noise/edwards25519"
 	"github.com/pkg/errors"
 	"golang.org/x/net/context"
 	"io"

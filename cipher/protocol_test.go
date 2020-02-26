@@ -2,8 +2,8 @@ package cipher
 
 import (
 	"context"
-	"github.com/perlin-network/noise"
-	"github.com/perlin-network/noise/handshake"
+	"github.com/clearmatics/noise"
+	"github.com/clearmatics/noise/handshake"
 	"github.com/stretchr/testify/assert"
 	"net"
 	"testing"

@@ -21,9 +21,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/perlin-network/noise"
-	"github.com/perlin-network/noise/cipher"
-	"github.com/perlin-network/noise/handshake"
+	"github.com/clearmatics/noise"
+	"github.com/clearmatics/noise/cipher"
+	"github.com/clearmatics/noise/handshake"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"math/rand"

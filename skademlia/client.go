@@ -22,7 +22,7 @@ package skademlia
 import (
 	"bytes"
 	"context"
-	"github.com/perlin-network/noise"
+	"github.com/clearmatics/noise"
 	"github.com/phf/go-queue/queue"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/blake2b"
@@ -288,6 +288,7 @@ func (c *Client) DisconnectByAddress(address string) error {
 }
 
 func (c *Client) connLoop(conn *grpc.ClientConn) {
+	
 	var id *ID
 
 	id = nil

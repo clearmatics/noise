@@ -21,7 +21,7 @@ package skademlia
 
 import (
 	"bytes"
-	"github.com/perlin-network/noise/edwards25519"
+	"github.com/clearmatics/noise/edwards25519"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/crypto/blake2b"

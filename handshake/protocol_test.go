@@ -5,7 +5,7 @@ import (
 	"context"
 	"crypto/rand"
 	"fmt"
-	"github.com/perlin-network/noise"
+	"github.com/clearmatics/noise"
 	"github.com/stretchr/testify/assert"
 	"net"
 	"testing"

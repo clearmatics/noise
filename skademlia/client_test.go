@@ -3,8 +3,8 @@ package skademlia
 import (
 	"bytes"
 	"context"
-	"github.com/perlin-network/noise"
-	"github.com/perlin-network/noise/edwards25519"
+	"github.com/clearmatics/noise"
+	"github.com/clearmatics/noise/edwards25519"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/crypto/blake2b"
 	"google.golang.org/grpc"

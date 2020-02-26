@@ -22,7 +22,7 @@ package skademlia
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/perlin-network/noise/edwards25519"
+	"github.com/clearmatics/noise/edwards25519"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/blake2b"
 	"io"
